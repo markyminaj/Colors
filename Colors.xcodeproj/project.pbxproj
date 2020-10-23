@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		9F456A7A24F5FC09003A4CC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F456A7924F5FC09003A4CC0 /* AppDelegate.swift */; };
 		9F456A7C24F5FC09003A4CC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F456A7B24F5FC09003A4CC0 /* SceneDelegate.swift */; };
-		9F456A7E24F5FC09003A4CC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F456A7D24F5FC09003A4CC0 /* ViewController.swift */; };
 		9F456A8124F5FC09003A4CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F456A7F24F5FC09003A4CC0 /* Main.storyboard */; };
 		9F456A8324F5FC0B003A4CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F456A8224F5FC0B003A4CC0 /* Assets.xcassets */; };
 		9F456A8624F5FC0B003A4CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F456A8424F5FC0B003A4CC0 /* LaunchScreen.storyboard */; };
+		9F456A8E24F5FDBE003A4CC0 /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F456A8D24F5FDBE003A4CC0 /* ColorsTableVC.swift */; };
+		9F456A9024F5FEB0003A4CC0 /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F456A8F24F5FEB0003A4CC0 /* ColorsDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F456A7624F5FC09003A4CC0 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F456A7924F5FC09003A4CC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F456A7B24F5FC09003A4CC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F456A7D24F5FC09003A4CC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F456A8024F5FC09003A4CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F456A8224F5FC0B003A4CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F456A8524F5FC0B003A4CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F456A8724F5FC0B003A4CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F456A8D24F5FDBE003A4CC0 /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
+		9F456A8F24F5FEB0003A4CC0 /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				9F456A7924F5FC09003A4CC0 /* AppDelegate.swift */,
 				9F456A7B24F5FC09003A4CC0 /* SceneDelegate.swift */,
-				9F456A7D24F5FC09003A4CC0 /* ViewController.swift */,
 				9F456A7F24F5FC09003A4CC0 /* Main.storyboard */,
+				9F456A8D24F5FDBE003A4CC0 /* ColorsTableVC.swift */,
+				9F456A8F24F5FEB0003A4CC0 /* ColorsDetailVC.swift */,
 				9F456A8224F5FC0B003A4CC0 /* Assets.xcassets */,
 				9F456A8424F5FC0B003A4CC0 /* LaunchScreen.storyboard */,
 				9F456A8724F5FC0B003A4CC0 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F456A7E24F5FC09003A4CC0 /* ViewController.swift in Sources */,
+				9F456A8E24F5FDBE003A4CC0 /* ColorsTableVC.swift in Sources */,
+				9F456A9024F5FEB0003A4CC0 /* ColorsDetailVC.swift in Sources */,
 				9F456A7A24F5FC09003A4CC0 /* AppDelegate.swift in Sources */,
 				9F456A7C24F5FC09003A4CC0 /* SceneDelegate.swift in Sources */,
 			);
