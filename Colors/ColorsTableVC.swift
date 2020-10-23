@@ -16,6 +16,7 @@ class ColorsTableVC: UIViewController {
         super.viewDidLoad()
         createRandomColors()
         // Do any additional setup after loading the view.
+        print("Hello")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
